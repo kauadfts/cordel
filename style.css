@@ -4,42 +4,53 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+:root{
+    --font1: Verdana,Tahoma, sans-serif;
+    --font2: "Passion One", serif;
+    --font3: sriracha, sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+html, body{
+    min-height: 100vh;
+}
+
 header{
     background-color: black;
     color: white;
-    font-family: "Passion One", serif;
+    font-family: var(--font2);
     text-align: center;  
-    padding: 80px;
-    font-size: 2.5em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 5vh;
     font-variant: small-caps;
 }
 
 header > p{
-    font-family: Verdana,Tahoma, sans-serif;
-    font-size: 0.4em;
+    font-family: var(--font1);
+    font-size: 2vh;
     font-variant: normal;
 }
 
-header a{
-    font-family: Verdana,Tahoma, sans-serif;
+a{
+    font-family: var(--font1);
     color: white;
     font-weight: bold;
     text-decoration: none;
 }
 
-header a:hover{
+a:hover{
     text-decoration: underline;
 }
 
 article p{
-    font-family: sriracha, sans-serif;
+    font-family: var(--font3);
     margin: 100px 40px;
-    font-size: 2em;
+    font-size: 3vh;
 }
 
 div.flor{
@@ -53,7 +64,7 @@ div.flor{
     
 }
 
-div.flor p{
+div.flor p , div.papel p{
     background-color: rgba(0, 0, 0, 0.363);
     text-shadow: 1px 1px 2px black;
     display: inline-block;
@@ -71,27 +82,11 @@ div.papel{
     
 }
 
-div.papel p{
-    background-color: rgba(0, 0, 0, 0.363);
-    text-shadow: 1px 1px 2px black;
-    display: inline-block;
-    padding: 10px;   
-}
-
 footer{
     background-color: black;
     color: white;
-    font-family: Verdana,Tahoma, sans-serif;
+    font-family: var(--font1);
     text-align: center;  
     padding: 10px;
-}
-
-footer a{
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-footer a:hover{
-    text-decoration: underline;
+    font-size: 2vh;
 }
