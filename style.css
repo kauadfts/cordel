@@ -45,6 +45,7 @@ article p{
 div.flor{
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
+    box-shadow:  3px 3px 10px 0px rgba(0, 0, 0, 0.281);
     background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,6 +55,7 @@ div.flor{
 
 div.flor p{
     background-color: rgba(0, 0, 0, 0.363);
+    text-shadow: 1px 1px 2px black;
     display: inline-block;
     padding: 10px;   
 }
@@ -61,6 +63,7 @@ div.flor p{
 div.papel{
     background-image: url(imagens/background002.jpg);
     background-attachment: fixed;
+    box-shadow:  3px 3px 10px 0px rgba(0, 0, 0, 0.281);
     background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,6 +73,7 @@ div.papel{
 
 div.papel p{
     background-color: rgba(0, 0, 0, 0.363);
+    text-shadow: 1px 1px 2px black;
     display: inline-block;
     padding: 10px;   
 }
